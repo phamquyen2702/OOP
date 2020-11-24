@@ -1,0 +1,2 @@
+Copy cái file data( data.csv) vào ổ E rồi run chương trình
+thư mục source: oop_btl
