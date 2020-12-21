@@ -4,6 +4,12 @@ import java.util.Comparator;
 
 import entity.Stocks;
 
+/**
+ * sort by low
+ * 
+ * @author Meow
+ *
+ */
 public class CompaLow implements Comparator<Stocks> {
 
     @Override

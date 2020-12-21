@@ -1,5 +1,11 @@
 package constant;
 
+/**
+ * class định nghĩa các biến hằng
+ * 
+ * @author Meow
+ *
+ */
 public class Constant {
     public static final String DELIMITER = ", ";
     public static final String AND = " và ";

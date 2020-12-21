@@ -1,5 +1,11 @@
 package entity;
 
+/**
+ * class định nghĩa một câu
+ * 
+ * @author Meow
+ *
+ */
 public class Sentence {
 
     private Tag tag;

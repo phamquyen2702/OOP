@@ -4,6 +4,12 @@ import java.util.Comparator;
 
 import entity.Stocks;
 
+/**
+ * sort by volumn
+ * 
+ * @author Meow
+ *
+ */
 public class CompaVolume implements Comparator<Stocks> {
 
     @Override

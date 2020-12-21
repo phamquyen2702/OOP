@@ -8,6 +8,12 @@ import entity.Tag;
 import exception.NotFoundSouceException;
 import generate.Generate;
 
+/**
+ * class hiển thị menu
+ * 
+ * @author Meow
+ *
+ */
 public class Application {
 
     private static Map<String, Tag> mapTags = null;

@@ -4,6 +4,7 @@ public class NotFoundSouceException extends Exception {
 
     /**
      * 
+     * class định nghĩa một exception
      */
     private static final long serialVersionUID = 1L;
 

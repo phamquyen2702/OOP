@@ -4,6 +4,12 @@ import java.util.Comparator;
 
 import entity.Stocks;
 
+/**
+ * sort by Hiht
+ * 
+ * @author Meow
+ *
+ */
 public class CompaHigh implements Comparator<Stocks> {
 
     @Override

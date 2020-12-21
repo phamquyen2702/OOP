@@ -12,11 +12,16 @@ import controller.Controller;
 import entity.Sentence;
 import entity.Stocks;
 
+/**
+ * generate sentence
+ * 
+ * @author Meow
+ *
+ */
 public class Generation extends GenerateUtil {
 
     Controller ctr = new Controller();
 
-    // Generate Tag1
     public Sentence generateSentence(String day) {
 	Sentence sentence = new Sentence();
 	String content = "Biến động của thị trường cổ phiếu trong ngày " + day + " như sau:";

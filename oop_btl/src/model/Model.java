@@ -8,6 +8,12 @@ import java.util.List;
 
 import entity.Stocks;
 
+/**
+ * get data
+ * 
+ * @author Meow
+ *
+ */
 public class Model {
 
     private final static String DELIMITER = ",";
@@ -21,6 +27,12 @@ public class Model {
 	return data;
     }
 
+    /**
+     * conver String-> object
+     * 
+     * @param line
+     * @return
+     */
     private Stocks converStocks(String line) {
 	Stocks stock = new Stocks();
 	String[] data = line.split(DELIMITER);
@@ -35,6 +47,12 @@ public class Model {
 	return stock;
     }
 
+    /**
+     * readFile
+     * 
+     * @param path
+     * @return list
+     */
     public List<Stocks> readFile(String path) {
 	BufferedReader fileReader = null;
 	List<Stocks> stocks = new ArrayList<>();

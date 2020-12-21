@@ -4,6 +4,12 @@ import java.util.Comparator;
 
 import entity.Stocks;
 
+/**
+ * sort by phần trăm cổ phiếu tăng giá
+ * 
+ * @author Meow
+ *
+ */
 public class Compara implements Comparator<Stocks> {
 
     @Override

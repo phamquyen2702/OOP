@@ -1,5 +1,11 @@
 package entity;
 
+/**
+ * class định nghĩa một tag
+ * 
+ * @author Meow
+ *
+ */
 public class Tag {
 
     private int id;

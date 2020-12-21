@@ -1,5 +1,11 @@
 package entity;
 
+/**
+ * class thể hiện thông tin của một stock
+ * 
+ * @author Meow
+ *
+ */
 public class Stocks {
 
     private String code;

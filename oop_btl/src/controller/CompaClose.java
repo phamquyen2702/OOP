@@ -4,6 +4,12 @@ import java.util.Comparator;
 
 import entity.Stocks;
 
+/**
+ * sort by close
+ * 
+ * @author Meow
+ *
+ */
 public class CompaClose implements Comparator<Stocks> {
 
     @Override

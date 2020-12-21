@@ -1,5 +1,11 @@
 package generate;
 
+/**
+ * generate sentence by tag
+ * 
+ * @author Meow
+ *
+ */
 public class Generate {
 
     Generation generation = new Generation();

@@ -1,5 +1,11 @@
 package generate;
 
+/**
+ * generate sentence util
+ * 
+ * @author Meow
+ *
+ */
 public class GenerateUtil {
 
     public String gen(int count, String status) {
